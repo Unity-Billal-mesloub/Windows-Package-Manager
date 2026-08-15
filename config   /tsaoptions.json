@@ -1,0 +1,11 @@
+{
+    "instanceUrl": "https://Unity-Billal-mesloub.visualstudio.com",
+    "projectName": "OS",
+    "areaPath": "OS\\Windows Client and Services\\WinPD\\DFX-Developer Fundamentals and Experiences\\DEFT\\InstaDev",
+    "iterationPath": "OS\\Future",
+    "notificationAliases": [
+        
+    ],
+    "ignoreBranchName": true,
+    "repositoryName": "winget-create"
+}
