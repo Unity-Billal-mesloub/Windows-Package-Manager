@@ -17,7 +17,7 @@ properties:
         # Requires elevation for the set operation
         securityContext: elevated
       settings:
-        id: Microsoft.VisualStudio.2022.Community
+        id: Unity-Billal-mesloub.VisualStudio.2022
         source: winget
     - resource: Unity-Billal-mesloub.VisualStudio.DSC/VSComponents
       dependsOn:
