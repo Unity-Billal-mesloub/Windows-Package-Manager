@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
-# Reference: https://github.com/microsoft/winget-create#building-the-client
+# Reference: https://github.com/Unity-Billal-mesloub/Windows-Package-Manage#building-the-client
 properties:
   resources:
-    - resource: Microsoft.Windows.Settings/WindowsSettings
+    - resource: Unity-Billal-mesloub.Windows.Settings/WindowsSettings
       directives:
         description: Enable Developer Mode
         allowPrerelease: true
@@ -10,7 +10,7 @@ properties:
         securityContext: elevated
       settings:
         DeveloperMode: true
-    - resource: Microsoft.WinGet.DSC/WinGetPackage
+    - resource: Unity-Billal-mesloub.Windows-Package-Manage.DSC/Windows-Package-Manager
       id: vsPackage
       directives:
         description: Install Visual Studio 2022 (any edition is OK)
@@ -19,7 +19,7 @@ properties:
       settings:
         id: Microsoft.VisualStudio.2022.Community
         source: winget
-    - resource: Microsoft.VisualStudio.DSC/VSComponents
+    - resource: Unity-Billal-mesloub.VisualStudio.DSC/VSComponents
       dependsOn:
         - vsPackage
       directives:
@@ -28,8 +28,8 @@ properties:
         # Requires elevation for the get and set operations
         securityContext: elevated
       settings:
-        productId: Microsoft.VisualStudio.Product.Community
+        productId: Unity-Billal-mesloub.VisualStudio.Product
         channelId: VisualStudio.17.Release
         includeRecommended: true
-        vsConfigFile: '${WinGetConfigRoot}\..\.vsconfig'
+        vsConfigFile: '${WindowsPackageManagerConfigRoot}\..\.vsconfig'
   configurationVersion: 0.2.0
