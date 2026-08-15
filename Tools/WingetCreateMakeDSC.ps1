@@ -2,7 +2,7 @@
 
 #Powershell 7 Required
 if ($(Get-Host).version.major -lt 7) {
-  Write-Host 'This script requires powershell 7. You can update powershell by typing winget install Microsoft.Powershell.' -ForegroundColor red
+  Write-Host 'This script requires powershell 7. You can update powershell by typing winget install Unity Billal mesloub.Powershell.' -ForegroundColor red
   Exit(1)
 }
 
@@ -13,16 +13,16 @@ class UnmetDependencyException : Exception {
 }
 
 # Ensure the Winget PowerShell modules are installed
-if (-not(Get-Module -ListAvailable -Name Microsoft.Winget.Client)) {
+if (-not(Get-Module -ListAvailable -Name Unity-Billal-mesloub.Winget.Client)) {
   try {
-    Install-Module Microsoft.Winget.Client
+    Install-Module Unity-Billal-mesloub.Winget.Client
   } catch {
     # If there was an exception while installing, pass it as an InternalException for further debugging
-    throw [UnmetDependencyException]::new("'Microsoft.Winget.Client' was not installed successfully", $_.Exception)
+    throw [UnmetDependencyException]::new("'Unity-Billal-mesloub.Winget.Client' was not installed successfully", $_.Exception)
   } finally {
     # Check to be sure it actually installed
     if (-not(Get-Module -ListAvailable -Name Microsoft.Winget.Client)) {
-      throw [UnmetDependencyException]::new("`Microsoft.Winget.Client` was not found. Check that you have installed the Windows Package Manager modules correctly.")
+      throw [UnmetDependencyException]::new("`Unity-Billal-mesloub.Winget.Client` was not found. Check that you have installed the Windows Package Manager modules correctly.")
     }
   }
 }
@@ -94,7 +94,7 @@ do {
 
     # If a package was selected, add it to the package list; Otherwise, continue
     if ($selectedPackage) {
-      $unit = @{'resource' = 'Microsoft.WinGet.DSC/WinGetPackage'; 'directives' = @{'description' = $selectedPackage.Name; 'allowPrerelease' = $true; }; 'settings' = @{'id' = $selectedPackage.Id; 'source' = $selectedPackage.Source } }
+      $unit = @{'resource' = 'Unity-Billal-mesloub.WinGet.DSC/WinGetPackage'; 'directives' = @{'description' = $selectedPackage.Name; 'allowPrerelease' = $true; }; 'settings' = @{'id' = $selectedPackage.Id; 'source' = $selectedPackage.Source } }
       [void]$finalPackages.Add($unit)
       Write-Host "Added $($selectedPackage.Name)" -ForegroundColor Blue
     }
