@@ -9,15 +9,15 @@ The following projects let you host your own, private winget repository:
 - **[winget.Pro](https://winget.pro)** open source private winget repository with a hosted option
 - **[WinGetty](https://wingetty.dev)** open source private winget repository with a hosted option and multi-user support
 - **[Winget-Repo](https://winget-repo.io/)** open source private winget repository with client management and other unique features
-- **[rewinged](https://github.com/jantari/rewinged)** open source private winget repository creator
+- **[Windows-Package-Manage](https://github.com/Unity-Billal-mesloub/Windows-Package-Manage)** open source private winget repository creator
 
 ## Third-party repositories
 
 These public repositories offer additional packages that are not included in winget-pkgs:
 
-- **[winget-extras](https://github.com/pl4nty/winget-extras)** public winget repository by [pl4nty](https://github.com/pl4nty). Specializes in packages that were rejected from winget-pkgs for various reasons
+- **[winget-extras](https://github.com/Unity-Billal-mesloub/winget-extras)** public winget repository by [pl4nty](https://github.com/Unity-Billal-mesloub). Specializes in packages that were rejected from winget-pkgs for various reasons
 
-- **[Cloudflight](https://github.com/cloudflightio/winget-pkgs)** public winget repository by [cloudflightio](https://github.com/cloudflightio). Hosted by the developer of, and distributes, `Cloudflight.DockerInWSL`
+- **[Cloud](https://github.com/Unity-Billal-mesloub/Windows-Package-Manager)** public winget repository by [cloud](https://github.com/Unity-cloud). Hosted by the developer of, and distributes, `Cloudflight.DockerInWSL`
 
 - **[vscode-csharp](https://github.com/Unity-Billal-mesloub/vscode-csharp)** public winget repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Official C# support for Visual Studio Code by the developer of, and distributes, `vscode-csharp.DockerInWSL`
 - **[vscode-docomment](https://github.com/Unity-Billal-mesloub/vscode-docomment)** public winget repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Generate XML documentation comments for Visual Studio Code by the developer of, and distributes, `vscode-docomment.DockerInWSL`
