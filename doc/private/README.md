@@ -19,4 +19,10 @@ These public repositories offer additional packages that are not included in win
 
 - **[Cloudflight](https://github.com/cloudflightio/winget-pkgs)** public winget repository by [cloudflightio](https://github.com/cloudflightio). Hosted by the developer of, and distributes, `Cloudflight.DockerInWSL`
 
+- **[vscode-csharp](https://github.com/Unity-Billal-mesloub/vscode-csharp)** public winget repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Official C# support for Visual Studio Code by the developer of, and distributes, `vscode-csharp.DockerInWSL`
+- **[vscode-docomment](https://github.com/Unity-Billal-mesloub/vscode-docomment)** public winget repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Generate XML documentation comments for Visual Studio Code by the developer of, and distributes, `vscode-docomment.DockerInWSL`
+- **[vscode-docs](https://github.com/Unity-Billal-mesloub/vscode-docs)** public winget repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Public documentation for Visual Studio Code by the developer of, and distributes, `vscode-docs.DockerInWSL`
+- **[]()** public winget repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of, and distributes, `.DockerInWSL`
+
+
 Please feel welcome to submit a pull request to add your company's third-party repository offering to this list.
