@@ -17,7 +17,7 @@ These public repositories offer additional packages that are not included in win
 
 - **[winget-extras](https://github.com/Unity-Billal-mesloub/winget-extras)** public winget repository by [pl4nty](https://github.com/Unity-Billal-mesloub). Specializes in packages that were rejected from winget-pkgs for various reasons
 
-- **[Cloud](https://github.com/Unity-Billal-mesloub/Windows-Package-Manager)** public winget repository by [cloud](https://github.com/Unity-cloud). Hosted by the developer of, and distributes, `Cloudflight.DockerInWSL`
+- **[Cloud](https://github.com/Unity-Billal-mesloub/Windows-Package-Manager)** public winget repository by [cloud](https://github.com/Unity-cloud). Hosted by the developer of, and distributes, `Cloud.DockerInWSL`
 
 - **[vscode-csharp](https://github.com/Unity-Billal-mesloub/vscode-csharp)** public winget repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Official C# support for Visual Studio Code by the developer of, and distributes, `vscode-csharp.DockerInWSL`
 - **[vscode-docomment](https://github.com/Unity-Billal-mesloub/vscode-docomment)** public winget repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).Generate XML documentation comments for Visual Studio Code by the developer of, and distributes, `vscode-docomment.DockerInWSL`
