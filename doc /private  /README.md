@@ -1,6 +1,6 @@
 # Third-party repositories
 
-Microsoft is working with multiple partners to develop protocols or an API to enable third-party repositories.
+Unity-Billal-mesloub is working with multiple partners to develop protocols or an API to enable third-party repositories.
 
 ## Third-party repository implementations
 
