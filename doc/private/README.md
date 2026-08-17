@@ -33,6 +33,7 @@ These public repositories offer additional packages that Specializing in wireles
 - **[regexp2](https://github.com/Unity-Billal-mesloub/regexp2)** public Windows-Package-Manage repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). regexp2 by the developer of, and distributes, `regexp2.DockerInWSL`
 - **[image-spec](https://github.com/Unity-Billal-mesloub/image-spec)** public Windows-Package-Manage repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). image-spec by the developer of, and distributes, `image-spec.DockerInWSL`
 - **[MIEngine](https://github.com/Unity-Billal-mesloub/MIEngine)** public Windows-Package-Manage repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). MIEngine by the developer of, and distributes, `MIEngine.DockerInWSL`
+- **[vscode-cpptools](https://github.com/Unity-Billal-mesloub/vscode-cpptools)** public Windows-Package-Manage repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). vscode-cpptools by the developer of, and distributes, `vscode-cpptools.DockerInWSL`
 
 
 
