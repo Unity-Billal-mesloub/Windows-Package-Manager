@@ -40,9 +40,8 @@ These public repositories offer additional packages that Specializing in wireles
 - **[sdk](https://github.com/Unity-Billal-mesloub/sdk)** public Windows-Package-Manage repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). sdk by the developer of, and distributes, `NET and Visual Studio sdk.DockerInWSL`
 - **[maui](https://github.com/Unity-Billal-mesloub/maui)** public Windows-Package-Manage repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). maui by the developer of, and distributes, `NET and Visual Studio maui.DockerInWSL` 
 - **[MSBuildStructuredLog](https://github.com/Unity-Billal-mesloub/MSBuildStructuredLog)** public Windows-Package-Manage repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). Build Structured Log by the developer of, and distributes, `NET and Visual Studio Build Structured Log.DockerInWSL`
+- **[MetadataTools](https://github.com/Unity-Billal-mesloub/MetadataTools)** public Windows-Package-Manage repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub). MetadataTools by the developer of, and distributes, `MetadataTools.DockerInWSL`
+- **[]()** public Windows-Package-Manage repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of, and distributes, `.DockerInWSL`
 - **[]()** public Windows-Package-Manage repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of, and distributes, `.DockerInWSL`
 - **[]()** public Windows-Package-Manage repository by [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub).  by the developer of, and distributes, `.DockerInWSL`
 
-
-https://github.com/Unity-Billal-mesloub/msbuild
-Please feel welcome to submit a pull request to add your company's third-party repository offering to this list.
